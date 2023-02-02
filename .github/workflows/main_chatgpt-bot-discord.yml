@@ -4,6 +4,10 @@
 
 name: Build and deploy Python app to Azure Web App - chatgpt-bot-discord
 
+env:
+  DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+  CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
+  
 on:
   push:
     branches:
