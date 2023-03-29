@@ -17,3 +17,8 @@ https://www.youtube.com/watch?v=wdgVv4UP08c&ab_channel=Amigoscode
 	![enter image description here](https://i.imgur.com/ne27u7h.png)
 
 
+## Run Flask Server
+
+Use the following command to start your flask server:
+
+	FLASK_APP=run:app flask run
