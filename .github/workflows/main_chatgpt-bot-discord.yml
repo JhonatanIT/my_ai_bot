@@ -59,7 +59,7 @@ jobs:
           path: .
           
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'chatgpt-bot-discord'
